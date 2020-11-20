@@ -3,6 +3,7 @@ package org.tutorials.tests;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
+import io.qameta.allure.junit4.Tag;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.tutorials.pojos.Student;
@@ -23,6 +24,8 @@ public class CrudTests extends TestBase {
         requestFactory = new RequestFactory();
     }
 
+    @Tag("Regression")
+    @Tag("Smoke")
     @Category({Smoke.class, Regression.class})
     @DisplayName("Test to get all students from DB successfully")
     @Test
@@ -35,6 +38,7 @@ public class CrudTests extends TestBase {
                 .statusCode(200);
     }
 
+    @Tag("Regression")
     @Category(Regression.class)
     @DisplayName("Test to create and verify a new student")
     @Test
