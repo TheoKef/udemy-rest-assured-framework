@@ -11,6 +11,15 @@ public class Student {
     private String programme;
     private List<String> courses;
 
+    public Student() {
+    }
+
+    public Student(String firstName, String lastName, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
     public int getId() {
         return id;
     }
