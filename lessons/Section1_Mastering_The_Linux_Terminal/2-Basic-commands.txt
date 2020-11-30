@@ -1,0 +1,32 @@
+SECTION 1: MASTERING THE LINUX TERMINAL
+Lesson 2: Basic commands
+
+[echo]
+Prints Command Line args to Standard Output
+
+[date]
+Shows the current date and time
+
+[cal]
+Displays a calendar
+
+[cat]
+Sticks files together and writes joined file to Standard Output
+Good for viewing the contents of one file
+
+Examples:
+CMD: echo Hello World
+OUT: Hello World
+
+CMD: date
+OUT: Mon 30 Nov 2020 03:28:23 PM UTC
+
+CMD: cal
+OUT:
+    November 2020
+Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30
