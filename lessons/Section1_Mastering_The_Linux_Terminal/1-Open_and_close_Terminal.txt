@@ -1,0 +1,9 @@
+SECTION 1: MASTERING THE LINUX TERMINAL
+Lesson 1: Open and Close the Terminal
+
+[Open Terminal]
+Command: Ctrl + Alt + T
+
+[Close Terminal]
+Command: Ctrl + D
+
